@@ -19,13 +19,13 @@
 * **LinkedIn:** [https://goo.gl/ZodGd3](https://goo.gl/ZodGd3)
 
 
-* **Educational Background:** I am currently a 2nd-year student [Cluster Innovation Centre](https://ducic.ac.in/), University of Delhi, New Delhi, India. Pursuing a Bachelor of Technology degree in Information Technology & Mathematical Innovation with a minor in Computational Biology. I will graduate by July 2021. I have been working with Java for over three years and with C++ and python for two years now. Since the codebase is written entirely in Java, my skills would align perfectly with the task at hand.
+* **Educational Background:** I am currently a 2nd-year student [Cluster Innovation Centre](https://ducic.ac.in/), University of Delhi, New Delhi, India. Pursuing a Bachelor of Technology degree in Information Technology & Mathematical Innovation with a minor in Computational Biology. I will graduate by July 2021. I have been working with Java for over three years and with C++ and Python for two years now. Since the codebase is written entirely in Java, my skills would align perfectly with the task at hand.
 
    I have been in touch with Bioinformatics as part of my university curriculum since 2nd semester (1st Year) and had biology as a part   of   my curriculum during my school. My interest in Bioinformatics and extensive use of my preferred language pushed me to pursue this   project. I some experience with open source contribution, but I do have a good understanding of Git and Version Control Services. The   coursework that I have attended includes Object Oriented Programming using Java, Database Management Systems, Natural Language           Processing, Computer System Architecture and C++ Programming. 
 
 ##       Project Proposal
 
-* **Project Title:** A new BridgeDB major release
+* **Project Title:** A new BridgeDb major release
 
 * **Project Idea:** [https://github.com/nrnb/GoogleSummerOfCode/issues/132](https://github.com/nrnb/GoogleSummerOfCode/issues/132) 
 
@@ -33,7 +33,7 @@
 
 * **Contribution:** Pull Request fixing the issue of the code not compiling with Java 9 and above. Pull Request [#89](https://github.com/bridgedb/BridgeDb/pull/89)** **(Added support of Java 11 to the existing release)
 
-* **Project Overview:** BridgeDB is a platform used for identifier mapping in WikiPathways and PathVisio with support for various languages like as a Cytoscape plugin, as an R package, and an API implemented in OpenRiskNet and OpenPHACTS. BridgeDB provides a platform to link other databases like Ensembl, NCBI Gene, ChEBI, PubChem, etc. The goal of the project is to successfully release a new version of BridgeDb with new functionality and with updated dependencies and libraries. It also requires improvement in the output of metadata to meet the FAIR standards, along with the support of newer Java releases up to Java 11.
+* **Project Overview:** BridgeDb is a platform used for identifier mapping in WikiPathways and PathVisio with support for various languages like as a Cytoscape plugin, as an R package, and an API implemented in OpenRiskNet and OpenPHACTS. BridgeDB provides a platform to link other databases like Ensembl, NCBI Gene, ChEBI, PubChem, etc. The goal of the project is to successfully release a new version of BridgeDb with new functionality and with updated dependencies and libraries. It also requires improvement in the output of metadata to meet the FAIR standards, along with the support of newer Java releases up to Java 11.
 
 * **Project Details:** In Google Summer of 2019, I would work on the following:
 
@@ -65,11 +65,11 @@ The backend uses two kinds of databases:
 
 1. Apache Derby:
 
-For Apache Derby, to add support for secondary identifier a new class SimpleGdbImpl4.java will be created, which will be similar to SimpleGdbImpl3.java which currently is working without the secondary identifier support.
+For Apache Derby, to add support for secondary identifier a new class SimpleGdbImpl4.java will be created, which will be similar to `SimpleGdbImpl3.java` which currently is working without the secondary identifier support.
 
 2. MySQL:
 
-  For MySQL, SQLIdMapper.java will be updated to support the secondary identifiers.
+  For MySQL, `SQLIdMapper.java` will be updated to support the secondary identifiers.
 
 Adding a function to the class Xref:
 ```java
