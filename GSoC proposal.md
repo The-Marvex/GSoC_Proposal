@@ -1,4 +1,4 @@
-###       GSoC 2019
+###                                                        GSoC 2019
 
 ##         Personal Background
 
@@ -19,7 +19,7 @@
 * **LinkedIn:** [https://goo.gl/ZodGd3](https://goo.gl/ZodGd3)
 
 
-* **Educational Background: **I am currently a 2nd-year student [Cluster Innovation Centre](https://ducic.ac.in/), University of Delhi, New Delhi, India. Pursuing a Bachelor of Technology degree in Information Technology & Mathematical Innovation with a minor in Computational Biology. I will graduate by July 2021. I have been working with Java for over three years and with C++ and python for two years now. Since the codebase is written entirely in Java, my skills would align perfectly with the task at hand.
+* **Educational Background:** I am currently a 2nd-year student [Cluster Innovation Centre](https://ducic.ac.in/), University of Delhi, New Delhi, India. Pursuing a Bachelor of Technology degree in Information Technology & Mathematical Innovation with a minor in Computational Biology. I will graduate by July 2021. I have been working with Java for over three years and with C++ and python for two years now. Since the codebase is written entirely in Java, my skills would align perfectly with the task at hand.
 
  I have been in touch with Bioinformatics as part of my university curriculum since 2nd semester (1st Year) and had biology as a part of my curriculum during my school. My interest in Bioinformatics and extensive use of my preferred language pushed me to pursue this project. I some experience with open source contribution, but I do have a good understanding of Git and Version Control Services. The coursework that I have attended includes Object Oriented Programming using Java, Database Management Systems, Natural Language Processing, Computer System Architecture and C++ Programming. 
 
@@ -79,7 +79,7 @@ public boolean isPrimary(String id)
 
 // Returns primary id associated with the passed id
 
-Public String getPrimary(String id)
+public String getPrimary(String id)
 ```
 This function shall return true if the id passed is primary and false if not i.e. secondary.
 
@@ -92,11 +92,11 @@ Replacing the libraries and dependencies which are outdated/have better alternat
 * Formatting Metadata to match FAIR Standards:
 
 Creating a function in which the metadata is passed and the necessary changes are made so as to match the FAIR Standards and then returned.
-
+```java
 // Returns metadata formatted according to FAIR Standards
 
 public String formatFAIR(String metadata)
-
+```
 This function will format the metadata and return formatted metadata which matches all the FAIR Standards and is of the same datatype that of the metadata.
 
 * Adding support for Java 11:
