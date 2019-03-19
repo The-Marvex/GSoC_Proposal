@@ -4,19 +4,20 @@
 
 * **Contact:**
 
-* **Name: **Manas Awasthi
+* **Name:** Manas Awasthi
 
 * **Email:** [marvex17@gmail.com](mailto:marvex17@gmail.com)
 
-* **Contact: **+91-9115050928
+* **Contact:** +91-9115050928
 
-* **Github: **[@The-Marvex](https://github.com/The-Marvex)
+* **Github:** [@The-Marvex](https://github.com/The-Marvex)
 
-* **Time Zone: **UTC + 5:30 Hrs
+* **Time Zone:** UTC + 5:30 Hrs
 
 * **CV:** [http://goo.gl/cjj96C](http://goo.gl/cjj96C)
 
-* **LinkedIn: **[https://goo.gl/ZodGd3](https://goo.gl/ZodGd3)
+* **LinkedIn:** [https://goo.gl/ZodGd3](https://goo.gl/ZodGd3)
+
 
 * **Educational Background: **I am currently a 2nd-year student [Cluster Innovation Centre](https://ducic.ac.in/), University of Delhi, New Delhi, India. Pursuing a Bachelor of Technology degree in Information Technology & Mathematical Innovation with a minor in Computational Biology. I will graduate by July 2021. I have been working with Java for over three years and with C++ and python for two years now. Since the codebase is written entirely in Java, my skills would align perfectly with the task at hand.
 
@@ -24,17 +25,17 @@
 
 ##       Project Proposal
 
-* **Project Title: **A new BridgeDB major release
+* **Project Title:** A new BridgeDB major release
 
-* **Project Idea: **[https://github.com/nrnb/GoogleSummerOfCode/issues/132](https://github.com/nrnb/GoogleSummerOfCode/issues/132) 
+* **Project Idea:** [https://github.com/nrnb/GoogleSummerOfCode/issues/132](https://github.com/nrnb/GoogleSummerOfCode/issues/132) 
 
-* **Mentor: **[Egon Willighagen](https://github.com/egonw)
+* **Mentor:** [Egon Willighagen](https://github.com/egonw)
 
 * **Contribution:** Pull Request fixing the issue of the code not compiling with Java 9 and above. Pull Request [#89](https://github.com/bridgedb/BridgeDb/pull/89)** **(Added support of Java 11 to the existing release)
 
-* **Project Overview: ** BridgeDB is a platform used for identifier mapping in WikiPathways and PathVisio with support for various languages like as a Cytoscape plugin, as an R package, and an API implemented in OpenRiskNet and OpenPHACTS. BridgeDB provides a platform to link other databases like Ensembl, NCBI Gene, ChEBI, PubChem, etc. The goal of the project is to successfully release a new version of BridgeDb with new functionality and with updated dependencies and libraries. It also requires improvement in the output of metadata to meet the FAIR standards, along with the support of newer Java releases up to Java 11.
+* **Project Overview:** BridgeDB is a platform used for identifier mapping in WikiPathways and PathVisio with support for various languages like as a Cytoscape plugin, as an R package, and an API implemented in OpenRiskNet and OpenPHACTS. BridgeDB provides a platform to link other databases like Ensembl, NCBI Gene, ChEBI, PubChem, etc. The goal of the project is to successfully release a new version of BridgeDb with new functionality and with updated dependencies and libraries. It also requires improvement in the output of metadata to meet the FAIR standards, along with the support of newer Java releases up to Java 11.
 
-* **Project Details: **In Google Summer of 2019, I would work on the following:
+* **Project Details:** In Google Summer of 2019, I would work on the following:
 
 * Extension of the existing functionality of BridgeDb.
 
@@ -71,7 +72,7 @@ For Apache Derby, to add support for secondary identifier a new class SimpleGdbI
   For MySQL, SQLIdMapper.java will be updated to support the secondary identifiers.
 
 Adding a function to the class Xref:
-
+```java
 // Returns whether the entered id is primary or not
 
 public boolean isPrimary(String id)
@@ -79,7 +80,7 @@ public boolean isPrimary(String id)
 // Returns primary id associated with the passed id
 
 Public String getPrimary(String id)
-
+```
 This function shall return true if the id passed is primary and false if not i.e. secondary.
 
 * Updating/Changing the libraries and dependencies with newer versions / better performing solution:
