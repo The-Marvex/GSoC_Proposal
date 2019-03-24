@@ -1,4 +1,4 @@
-###                                                        Google Summer of Code 2019
+  <h1 align="center"> Google Summer of Code 2019 </h1>
 
 ##         Personal Background
 
@@ -23,7 +23,7 @@
 
    I have been in touch with Bioinformatics as part of my university curriculum since 2nd semester (1st Year) and had biology as a part   of   my curriculum during my school. My interest in Bioinformatics and extensive use of my preferred language pushed me to pursue this   project. I have some experience with open source contribution, but I do have a good understanding of Git and Version Control Services. The   coursework that I have attended includes Object Oriented Programming using Java, Database Management Systems, Natural Language           Processing, Computer System Architecture and C++ Programming. 
   Some of my previous works:
-  * Hill Cipher:[Link](https://github.com/The-Marvex/Hill-Cipher)
+  * Hill Cipher: [Link](https://github.com/The-Marvex/Hill-Cipher)
   * Terminal: [Link](https://github.com/The-Marvex/Terminal)
   * Glaucoma Detection using Deep Learning: [Link](https://github.com/The-Marvex/Glaucoma-Detection-Using-DL)
 
@@ -71,13 +71,13 @@ The backend uses two kinds of databases:
 
 1. Apache Derby:
 
-For Apache Derby, to add support for secondary identifier a new class SimpleGdbImpl4.java will be created, which will be similar to `SimpleGdbImpl3.java` which currently is working without the secondary identifier support.
+For Apache Derby, to add support for secondary identifier a new class `SimpleGdbImpl4.java` will be created, which will be similar to [`SimpleGdbImpl3.java`](https://github.com/bridgedb/BridgeDb/blob/master/org.bridgedb.rdb/src/org/bridgedb/rdb/SimpleGdbImpl3.java) which currently is working without the secondary identifier support.
 
 2. MySQL:
 
-  For MySQL, `SQLIdMapper.java` will be updated to support the secondary identifiers.
+  For MySQL, [`SQLIdMapper.java`](https://github.com/bridgedb/BridgeDb/blob/master/org.bridgedb.sql/src/org/bridgedb/sql/SQLIdMapper.java) will be updated to support the secondary identifiers.
 
-Adding a function to the class Xref:
+Adding a function to the class [`Xref`](https://github.com/bridgedb/BridgeDb/blob/master/org.bridgedb/src/org/bridgedb/Xref.java):
 ```java
 // Returns whether the entered id is primary or not
 
