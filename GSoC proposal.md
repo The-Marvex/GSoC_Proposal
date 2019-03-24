@@ -1,8 +1,8 @@
-###                                                        GSoC 2019
+###                                                        Google Summer of Code 2019
 
 ##         Personal Background
 
-* **Contact:**
+## Contact:
 
 * **Name:** Manas Awasthi
 
