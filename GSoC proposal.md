@@ -19,7 +19,7 @@
 * **LinkedIn:** [https://goo.gl/ZodGd3](https://goo.gl/ZodGd3)
 
 
-* **Educational Background:** I am currently a 2nd-year student [Cluster Innovation Centre](https://ducic.ac.in/), University of Delhi, New Delhi, India. Pursuing a Bachelor of Technology degree in Information Technology & Mathematical Innovation with a minor in Computational Biology. I will graduate by July 2021. I have been working with Java for over three years and with C++ and Python for two years now. Since the codebase is written entirely in Java, my skills would align perfectly with the task at hand.
+**Educational Background:** I am currently a 2nd-year student [Cluster Innovation Centre](https://ducic.ac.in/), University of Delhi, New Delhi, India. Pursuing a Bachelor of Technology degree in Information Technology & Mathematical Innovation with a minor in Computational Biology. I will graduate by July 2021. I have been working with Java for over three years and with C++ and Python for two years now. Since the codebase is written entirely in Java, my skills would align perfectly with the task at hand.
 
    I have been in touch with Bioinformatics as part of my university curriculum since 2nd semester (1st Year) and had biology as a part   of   my curriculum during my school. My interest in Bioinformatics and extensive use of my preferred language pushed me to pursue this   project. I have some experience with open source contribution, but I do have a good understanding of Git and Version Control Services. The   coursework that I have attended includes Object Oriented Programming using Java, Database Management Systems, Natural Language           Processing, Computer System Architecture and C++ Programming. 
   Some of my previous works:
@@ -35,11 +35,13 @@
 
 * **Mentor:** [Egon Willighagen](https://github.com/egonw)
 
-* **Contribution:** Pull Request fixing the issue of the code not compiling with Java 9 and above. Pull Request [#89](https://github.com/bridgedb/BridgeDb/pull/89)** **(Added support of Java 11 to the existing release)
+* **Contribution:** Pull Request fixing the issue of the code not compiling with Java 9 and above. Pull Request [#89](https://github.com/bridgedb/BridgeDb/pull/89)(Added support of Java 11 to the existing release)
 
 * **Project Overview:** BridgeDb is a platform used for identifier mapping in WikiPathways and PathVisio with support for various languages like as a Cytoscape plugin, as an R package, and an API implemented in OpenRiskNet and OpenPHACTS. BridgeDB provides a platform to link other databases like Ensembl, NCBI Gene, ChEBI, PubChem, etc. The goal of the project is to successfully release a new version of BridgeDb with new functionality and with updated dependencies and libraries. It also requires improvement in the output of metadata to meet the FAIR standards, along with the support of newer Java releases up to Java 11.
 
-* **Project Details:** In Google Summer of 2019, I would work on the following:
+## **Project Details:** 
+
+In Google Summer of 2019, I would work on the following:
 
 * Extension of the existing functionality of BridgeDb.
 
@@ -61,7 +63,7 @@
 
 # 	     Implementation
 
-* Support for Secondary Classifier:
+* Support for Secondary Identifier:
 
 Changing the schema for Derby SQL and MySQL to add primaryID and secondaryID as two annotations in it.  
 
@@ -153,40 +155,40 @@ Different documentation would be written for the new developers who may like to 
 
 <table>
   <tr>
-    <td>First Evaluation</td>
+    <td>First Evaluation Period</td>
     <td></td>
   </tr>
   <tr>
-    <td>May 28 - June 9</td>
-    <td>Adding annotations to differentiate between primary and secondary identifier.</td>
+    <td>May 28 - June 12</td>
+    <td>Adding annotations to differentiate between primary and secondary identifier. Testing the added features. Adding the changnes made to the documentation. </td>
   </tr>
   <tr>
-    <td>June 10 - June 18</td>
-    <td>Mapping of secondary identifier</td>
+    <td>June 13 - June 21</td>
+    <td>Mapping of secondary identifier. Testing the added features. Documentation for the added feature.</td>
   </tr>
   <tr>
-    <td>June 18 - June 24</td>
-    <td>Testing and Debugging + Buffer Time</td>
+    <td>June 21 - June 24</td>
+    <td>Buffer Time</td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td>Second Evaluation</td>
+    <td>Second Evaluation Period</td>
     <td></td>
   </tr>
   <tr>
-    <td>June 24 - July 3</td>
-    <td>Updating existing libraries and dependencies. Removing deprecated libraries and changing them with alternatives.</td>
+    <td>June 24 - July 7</td>
+    <td>Updating existing libraries and dependencies. Removing deprecated libraries and changing them with alternatives. Testing the changes with apt test cases. Adding the documentation of the added libraries.</td>
   </tr>
   <tr>
-    <td>July 4 - July 11</td>
-    <td>replacing libraries with more performing solutions.</td>
+    <td>July 7 - July 18</td>
+    <td>replacing libraries with more performing solutions. Testing the changes made. Adding documentation for the new libraries </td>
   </tr>
   <tr>
-    <td>July 12 - July 22</td>
-    <td>Testing and Documentation + Buffer Time</td>
+    <td>July 18 - July 22</td>
+    <td>Buffer Time</td>
   </tr>
 </table>
 
@@ -197,7 +199,7 @@ Different documentation would be written for the new developers who may like to 
     <td></td>
   </tr>
   <tr>
-    <td>23 July - Aug 5</td>
+    <td>July 23 - Aug 5</td>
     <td>Formatting Metadata to meet FAIR Standards.</td>
   </tr>
   <tr>
@@ -206,11 +208,11 @@ Different documentation would be written for the new developers who may like to 
   </tr>
   <tr>
     <td>Aug 10 - Aug 14</td>
-    <td>Testing and Bug Fixing</td>
+    <td>Testing all the changes made in its entirety.</td>
   </tr>
   <tr>
     <td>Aug 14 - Aug 19</td>
-    <td>Code Documentation + Release of new version + Buffer Time </td>
+    <td>Release of new version + Buffer Time </td>
   </tr>
 </table>
 
@@ -227,7 +229,7 @@ Different documentation would be written for the new developers who may like to 
 
 * I do not any full-time or part-time internships planned for this summer.
 
-* I will be working on the project for around 35-40 hours a week, distributed evenly through the week.
+* I will be working on the project for around 35-40 hours a week, distributed evenly through the week (7 days).
 
 * I will be located in Kanpur, Uttar Pradesh, India. I will be travelling to my hometown. I will be travelling for a night, which will not intervene with my working hours. 
 
