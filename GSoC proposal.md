@@ -57,7 +57,7 @@ In Google Summer of 2019, I would work on the following:
     * This includes listing out libraries and dependencies along with the alternatives available and comparison of the performance, advantages and disadvantages of one over other.
 
 * Format output of metadata to match [FAIR Standards](http://www.nature.com/articles/sdata201618).
-  * There are 4 basic guidelines needed to e followed to match the FAIR Standards:
+  * There are 4 basic guidelines needed to be followed to match the FAIR Standards:
     * Findable
     * Accessible
     * Interoperable
