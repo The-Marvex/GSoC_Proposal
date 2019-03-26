@@ -79,13 +79,21 @@ For Apache Derby, to add support for secondary identifier a new class `SimpleGdb
 
 Adding a function to the class [`Xref`](https://github.com/bridgedb/BridgeDb/blob/master/org.bridgedb/src/org/bridgedb/Xref.java):
 ```java
-// Returns whether the entered id is primary or not
+\**
+This function returns a boolean value after checking whether the id is primary or not.
+@param No arguments passed. 
+@return boolean that is obtained by the condition whether the id is primary or not. 
+*\
 
-public boolean isPrimary(String id)
+public boolean isPrimary()
 
-// Returns primary id associated with the passed id
+\**
+This function returns the primary id associated with the current object's id regardless whether it is a primary id or secondary id.
+@param No arguments needed. 
+@return primary id associated with the current object's id. 
+*\
 
-public String getPrimary(String id)
+public String getPrimary()
 ```
 This function shall return true if the id passed is primary and false if not i.e. secondary.
 
