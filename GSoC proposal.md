@@ -50,7 +50,7 @@ In Google Summer of 2019, I would work on the following:
         * Adding an annotation to differentiate primary and secondary identifiers
 
         * Secondary identifiers to be mapped by BridgeDb to other identifiers.
-          * Secondary Identifiers: Secondary Identifiers are the secondary ID associated with the proteins etc. For Example: [Sucrose](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17992), for sucrose  [ChEBI](https://www.ebi.ac.uk/chebi) Database, it has one ChEBI ID and four different secondary ChEBI ID's. These secondary ID's associated with every protein etc. are secondary identifiers.
+          * Secondary Identifiers: Secondary Identifiers are the secondary ID associated with the proteins etc. For Example: [Sucrose](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17992), for sucrose  [ChEBI](https://www.ebi.ac.uk/chebi) Database, it has one ChEBI ID and four different secondary ChEBI ID's. These secondary ID's associated with every protein, etc. are secondary identifiers.
 
 * Updating / Changing the libraries and dependencies on which BridgeDb works with newer versions or the ones which have better performance.
 
