@@ -71,7 +71,7 @@ In Google Summer of 2019, I would work on the following:
 
 * Support for Secondary Identifier:
 
-Changing the schema for Derby SQL and MySQL to add primaryID and secondaryID as two annotations in it.  
+Changing the schema for Derby SQL and MySQL to add primaryID and secondaryID as two annotations in it. Making these changes will have no implication on the setting up the database.  
 
 The backend uses two kinds of databases:
 
@@ -102,6 +102,7 @@ This function returns the primary id associated with the current object's id reg
 public String getPrimary()
 ```
 This function shall return true if the id passed is primary and false if not i.e. secondary.
+ 
 
 * Updating/Changing the libraries and dependencies with newer versions / better performing solution:
 
