@@ -2,7 +2,7 @@
 
 ##         Personal Background
 
-## Contact:
+### Contact:
 
 * **Name:** Manas Awasthi
 
