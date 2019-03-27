@@ -238,7 +238,7 @@ Different documentation would be written for the new developers who may like to 
 
 * Classes will be dispersed on 29th April.
 
-* Semester Exam will commence from 10th May and will continue till 26th May. I will not be able to work on the project. I will make up for this lost time by working for extra hours regularly over the course of the project.
+* Semester Exam will commence from 9th May and will continue till 21th May. I will not be able to dedicate as many ours as I would do after this time, but I can assure I will dedicate 3-4 ours daily during this period as well. I will make up for this lost time by working for extra hours regularly over the course of the project.
 
 * I do not have any school-related activities scheduled for summers / the coding period.
 
