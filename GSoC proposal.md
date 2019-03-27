@@ -50,12 +50,18 @@ In Google Summer of 2019, I would work on the following:
         * Adding an annotation to differentiate primary and secondary identifiers
 
         * Secondary identifiers to be mapped by BridgeDb to other identifiers.
+          * Secondary Identifiers: Secondary Identifiers are the secondary ID associated with the proteins etc. For Example: [Sucrose](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17992), for sucrose  [ChEBI](https://www.ebi.ac.uk/chebi) Database, it has one ChEBI ID and four different secondary ChEBI ID's. These secondary ID's associated with every protein, etc. are secondary identifiers.
 
 * Updating / Changing the libraries and dependencies on which BridgeDb works with newer versions or the ones which have better performance.
 
     * This includes listing out libraries and dependencies along with the alternatives available and comparison of the performance, advantages and disadvantages of one over other.
 
-* Format output of metadata to match FAIR Standards.
+* Format output of metadata to match [FAIR Standards](http://www.nature.com/articles/sdata201618).
+  * There are 4 basic guidelines needed to be followed to match the FAIR Standards:
+    * Findable
+    * Accessible
+    * Interoperable
+    * Reusable.
 
 * Support for Java 11
 
@@ -65,7 +71,7 @@ In Google Summer of 2019, I would work on the following:
 
 * Support for Secondary Identifier:
 
-Changing the schema for Derby SQL and MySQL to add primaryID and secondaryID as two annotations in it.  
+Changing the schema for Derby SQL and MySQL to add primaryID and secondaryID as two annotations in it. Making these changes will have no implication on the setting up the database.  
 
 The backend uses two kinds of databases:
 
@@ -79,15 +85,24 @@ For Apache Derby, to add support for secondary identifier a new class `SimpleGdb
 
 Adding a function to the class [`Xref`](https://github.com/bridgedb/BridgeDb/blob/master/org.bridgedb/src/org/bridgedb/Xref.java):
 ```java
-// Returns whether the entered id is primary or not
+\**
+This function returns a boolean value after checking whether the id is primary or not.
+@param No arguments passed. 
+@return boolean that is obtained by the condition whether the id is primary or not. 
+*\
 
-public boolean isPrimary(String id)
+public boolean isPrimary()
 
-// Returns primary id associated with the passed id
+\**
+This function returns the primary id associated with the current object's id regardless whether it is a primary id or secondary id.
+@param No arguments needed. 
+@return primary id associated with the current object's id. 
+*\
 
-public String getPrimary(String id)
+public String getPrimary()
 ```
 This function shall return true if the id passed is primary and false if not i.e. secondary.
+ 
 
 * Updating/Changing the libraries and dependencies with newer versions / better performing solution:
 
@@ -115,7 +130,7 @@ Test Cases to ensure that all the features of the project are working
 
 * Code Documentation:
 
-I would not only add suitable comments to the code I will be writing but also to the previously written ones. After the implementation of each feature (or task), I will be writing extensive documentation of the same. This documentation would consist of a few use cases and a complete description of the feature available. This would add a good experience for the users as things would look easy.
+I would not only add suitable comments to the code I will be writing but also to the previously written ones. After the implementation of each feature (or task), I will be writing extensive documentation of the same. This documentation would consist of a few use cases and a complete description of the feature available. This would add a good experience for the users as things would look easy. All of this would be added to a markdown file in the BridgeDb repository.
 
 Different documentation would be written for the new developers who may like to contribute to the project. This would cover the following aspects :
 
