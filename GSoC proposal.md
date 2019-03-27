@@ -37,7 +37,7 @@
 
 * **Contribution:** Pull Request fixing the issue of the code not compiling with Java 9 and above. Pull Request [#89](https://github.com/bridgedb/BridgeDb/pull/89)(Added support of Java 11 to the existing release)
 
-* **Project Overview:** BridgeDb is a platform used for identifier mapping in WikiPathways and PathVisio with support for various languages like as a Cytoscape plugin, as an R package, and an API implemented in OpenRiskNet and OpenPHACTS. BridgeDB provides a platform to link other databases like Ensembl, NCBI Gene, ChEBI, PubChem, etc. The goal of the project is to successfully release a new version of BridgeDb with new functionality and with updated dependencies and libraries. It also requires improvement in the output of metadata to meet the FAIR standards, along with the support of newer Java releases up to Java 11.
+* **Project Overview:** BridgeDb is a platform used for identifier mapping in WikiPathways and PathVisio with support for various languages like as a Cytoscape plugin, as an R package, and an API implemented in OpenRiskNet and OpenPHACTS. BridgeDB provides a platform to link other databases like Ensembl, NCBI Gene, ChEBI, PubChem, etc. The main idea of this project is to add functionality and release a major version of BridgeDb. This new version would support Java version above 8. It will also have support for ‘Secondary identifier’. As a part of the project, metadata output provided by BridgeDb will also be formatted to meet the ‘The FAIR Guiding Principles for scientific data management and stewardship’. 
 
 ## **Project Details:** 
 
