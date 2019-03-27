@@ -97,7 +97,7 @@ public boolean isPrimary()
 \**
 This function returns the primary id associated with the current object's id regardless whether it is a primary id or secondary id.
 @param No arguments needed. 
-@return primary id associated with the current object's id. 
+@return primary id as string associated with the current object's id. 
 *\
 
 public String getPrimary()
@@ -233,7 +233,12 @@ Different documentation would be written for the new developers who may like to 
 </table>
 
 
-* I do not foresee any difficulty in the execution of my proposal. In case I would feel that I am unable to pass some barrier, I would resolve it through discussion with mentors and thorough online research.
+### Potential Obstacles:
+
+* For any doubt related with the code base, I will contact the developers of BridgeDb using the BridgeDb mailing list and my project mentor to clarify my doubts regarding the same.
+
+* For any problem I face regarding the proposed implementation , I will try to find the solution by online research and I'll contact my mentor for his advice for the same.
+
 
 ## Availability:
 
