@@ -92,7 +92,8 @@ This function returns a boolean value after checking whether the id is primary o
 *\
 
 public boolean isPrimary()
-
+```
+```java
 \**
 This function returns the primary id associated with the current object's id regardless whether it is a primary id or secondary id.
 @param No arguments needed. 
