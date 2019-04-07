@@ -16,7 +16,7 @@
 
 * **CV:** [Link](http://goo.gl/cjj96C)
 
-* **LinkedIn:** [Link](www.linkedin.com/in/manasawasthi)
+* **LinkedIn:** [Link](https://www.linkedin.com/in/manasawasthi)
 
 
 **Educational Background:** I am currently a 2nd-year student [Cluster Innovation Centre](https://ducic.ac.in/), University of Delhi, New Delhi, India. Pursuing a Bachelor of Technology degree in Information Technology & Mathematical Innovation with a minor in Computational Biology. I will graduate by July 2021. I have been working with Java for over three years and with C++ and Python for two years now. Since the codebase is written entirely in Java, my skills would align perfectly with the task at hand.
